@@ -1,0 +1,56 @@
+table{
+	width:80%;
+}
+#content{
+	font-family:verdana;
+	font-style:italic;
+}
+
+#tools{
+	float:right;
+}
+
+ul li .para{
+	font-style:italic;
+}
+
+a{
+	color: red;
+    text-decoration:none;
+}
+
+a:hover{
+	 text-decoration:underline;
+	 color: blue;
+}
+
+#footer{
+	text-align:center;
+	font-family:calibri;
+	color:white;
+	font-style:inherit;
+}
+
+img{
+	border: 0;
+}
+
+.image1{
+	margin-top:0;
+	padding-top:0;
+}
+
+#logo{
+	text-align:center;
+	font-family:calibri;
+	font-size :18px;
+	color:red;
+	font-style:italic;
+	
+}
+
+.a2 a{
+	color: green;
+    text-decoration:none;
+	
+}

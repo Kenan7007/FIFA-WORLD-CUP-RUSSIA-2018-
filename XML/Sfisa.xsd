@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"   attributeFormDefault="unqualified">
+
+    <xs:element name="DATELE_PERSONALE">
+        
+        <xs:complexType> 
+            
+            <xs:sequence>
+                
+                <xs:element name="NUME" type="xs:string" minOccurs="1"/>
+                
+                <xs:element name="PRENUME" type="xs:string" minOccurs="1"/>
+                
+                <xs:element name="DATA_NASTERII" type="xs:date"/>
+                
+                <xs:element name="LOCUL_NASTERII" type="xs:string"/>
+                
+                <xs:element name="SEXUL" type="xs:string"/>
+                
+                <xs:element name="STARE_CIVILA" type="xs:string"/>
+                
+                <xs:element name="CNP" type="xs:integer" minOccurs="0" maxOccurs="unbounded"/>
+                
+            </xs:sequence>
+            
+        </xs:complexType>
+        
+        
+  <!-- <xs:complexType name="STAREA_CIVILA">
+                 
+                        <xs:choise>
+                        
+                            <xs:element name="CASATORITE" type="xs:string"/>
+                            
+                            <xs:element name="NECASATORITE" type="xs:string"/>
+                            
+                            <xs:element name="DIVORTAT" type="xs:string"/>
+                            
+                        </xs:choise>
+                        
+           </xs:complexType>       -->
+        
+    </xs:element>
+
+</xs:schema>
